@@ -80,7 +80,7 @@ export default function Hero() {
               className="text-lg leading-[1.75] mb-8 font-['Inter'] font-normal"
               style={{ color: "rgba(255,255,255,0.78)" }}
             >
-              Lead Developer Advocate at Meta. Over a decade building bridges between
+              Director of Developer Strategy at GitHub. Over a decade building bridges between
               engineering teams and the developers who depend on them, through open
               source, community, and the belief in lifting while you climb.
             </p>

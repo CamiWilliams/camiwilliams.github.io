@@ -1,16 +1,27 @@
 /**
  * DESIGN: Holographic Dark Experience
- * Full career timeline, Meta, Amazon, Google, Clarifai, internships, advisory
+ * Full career timeline, GitHub, Meta, Amazon, Google, Clarifai, internships, advisory
  * Holographic accent lines, glassmorphism cards, Plus Jakarta Sans headings, Inter body
  */
 
 const experiences = [
   {
-    company: "Meta",
-    role: "Lead Developer Advocate, Developer Success Solutions",
-    period: "2019 / Present",
+    company: "GitHub",
+    role: "Director of Developer Strategy",
+    period: "Sep 2026 / Present",
     current: true,
     accentColor: "#00f5ff",
+    description:
+      "Director of Developer Strategy at GitHub, shaping how GitHub engages with and serves the global developer community.",
+    highlights: [],
+    tags: ["Developer Strategy", "Developer Relations", "Open Source", "Leadership"],
+  },
+  {
+    company: "Meta",
+    role: "Lead Developer Advocate, Developer Success Solutions",
+    period: "Jul 2019 / Aug 2026",
+    current: false,
+    accentColor: "#ff2d78",
     description:
       "Lead Developer Advocate at Meta driving external developer engagement, open source community health, and content strategy across Meta's most widely used frameworks, including PyTorch, React, React Native, and the WhatsApp Business Platform. For the first five years, served as a people manager, directly managing and developing tens of individual contributors across IC levels.",
     highlights: [
@@ -20,7 +31,7 @@ const experiences = [
       "Generated 5M+ engagements across external channels spanning talks, videos, blogs, podcasts, press, and code samples, with 94% favorability across DA-published channels",
       "Produced the most-watched 'how to open source' video across all Meta channels, part of 77 technical videos and courses published on Meta Open Source, Meta for Developers, PyTorch, Quest for Developers, and Coursera",
       "Helped establish the React Foundation and PyTorch Foundation as independent, community-governed projects",
-      "Serves as Meta's board member representative across 9 open source foundations, including ECMA International, the Linux Foundation, and the Apache Software Foundation",
+      "Served as Meta's board member representative across 9 open source foundations, including ECMA International, the Linux Foundation, and the Apache Software Foundation",
       "Represented Meta at major industry events including All Things Open, Remix Conf, and global developer summits",
     ],
     tags: ["Open Source", "AI/ML", "React", "PyTorch", "Developer Relations", "Team Leadership"],

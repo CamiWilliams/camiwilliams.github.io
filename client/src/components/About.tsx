@@ -4,7 +4,7 @@
  * Pull-quote with prismatic left border
  */
 
-import speakingImg from "../img/ghc.png";
+import speakingImg from "../img/stage.jpg";
 const SPEAKING_IMG = speakingImg;
 
 const stats = [
@@ -47,8 +47,8 @@ export default function About() {
               <img
                 src={SPEAKING_IMG}
                 alt="Camryn Williams"
-                className="relative z-10 w-full object-cover object-top"
-                style={{ minHeight: "520px", maxHeight: "680px" }}
+                className="relative z-10 w-full object-cover"
+                style={{ minHeight: "520px", maxHeight: "680px", objectPosition: "65% center" }}
               />
               <div className="mt-4">
                 <span className="label-mono" style={{ color: "rgba(191,95,255,0.7)" }}>
@@ -76,9 +76,10 @@ export default function About() {
               <p>
                 I am a technical leader and developer advocate with over a decade of
                 experience at the intersection of engineering, community, and communication.
-                Currently, I lead Developer Advocacy at Meta, working across open source
-                project health, developer education, and content strategy for some of the
-                world's most widely used frameworks.
+                Currently, I am the Director of Developer Strategy at GitHub. Previously, I
+                led Developer Advocacy at Meta, working across open source project health,
+                developer education, and content strategy for some of the world's most
+                widely used frameworks.
               </p>
               <p>
                 My career has spanned some of the most consequential open source projects of
@@ -88,7 +89,7 @@ export default function About() {
                 reached thousands of practitioners, and helped establish the React Foundation.
               </p>
               <p>
-                Before Meta, I have worked at Amazon, Google, Apple, Microsoft, and Clarifai.
+                Before GitHub and Meta, I worked at Amazon, Google, Apple, Microsoft, and Clarifai.
                 Throughout my career, I've led with a simple conviction: there is joy in
                 learning, and equally there is joy in teaching. Share what you know and
                 uplevel others where you can.
